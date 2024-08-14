@@ -1,0 +1,1046 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.event_container {
+  margin: auto;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  max-height: 640px;
+}
+
+.event-image {
+
+
+  /* width: 50%; */
+    width: 70%;
+    height: 85% !important;
+    margin-left: 15% !important;
+
+}
+
+.events {
+  /* margin-left:560px; */
+  position: relative;
+  width: 50%;
+  height: 640px;
+  display: inline-block;
+  background: #FCFFE7;
+}
+
+.event-img {
+  width: 50%;
+   
+  max-height: 640px;
+}
+
+.heading {
+  position: absolute;
+  margin-left: 86px;
+  margin-top: 50px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 112.68%;
+
+
+  display: inline-block;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.event-type {
+  padding-top: 15px;
+  padding-left: 19px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 112.68%;
+
+  width: 320px;
+  display: inline-block;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.event-title-1 {
+  padding-top: 9px;
+  padding-left: 19px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 112.68%;
+  width: 300px;
+  display: inline-block;
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+
+}
+
+.event-card-1 {
+  box-sizing: border-box;
+  width: 350px;
+  height: 120px;
+  position: absolute;
+  margin-left: 86px;
+  margin-top: 149px;
+  background: #FEFEFE;
+  border: 1px solid #DCD6D6;
+}
+
+.event-date-1 {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background: #2B3467;
+  border: 1px solid #DCD6D6;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 112.68%;
+
+
+  display: inline-block;
+  text-align: center;
+  letter-spacing: -0.02em;
+  padding: 11px;
+  color: #FFFFFF;
+}
+
+.event-card-2 {
+  box-sizing: border-box;
+  width: 350px;
+  height: 120px;
+  position: absolute;
+  margin-left: 86px;
+  margin-top: 309px;
+  background: #FEFEFE;
+  border: 1px solid #DCD6D6;
+}
+
+.event-card-3 {
+  box-sizing: border-box;
+  width: 380px;
+  height: 120px;
+  position: absolute;
+  margin-left: 86px;
+  margin-top: 469px;
+  background: #FEFEFE;
+  border: 1px solid #DCD6D6;
+}
+
+.upcom-evt {
+
+
+  width: 100%;
+  height: 15%;
+  background: #EB455F;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+
+
+  text-align: center;
+  padding-top: 3%;
+
+  letter-spacing: -0.02em;
+
+  color: #FFFFFF;
+}
+
+
+.container {
+  display: flex;
+}
+
+
+
+.img {
+  width: 100%;
+  padding-left: 30%;
+  border: 20px;
+}
+
+.image {
+  /*  width: 50%;
+    padding-left: 90%;*/
+  width: 100%;
+  /* padding-left: 30%; */
+  border: 20px;
+}
+
+.txt {
+  padding: 4px 12px;
+}
+
+.txt1 {
+  padding: 4px 12px;
+}
+
+.gallary_container {
+  width: 100%;
+  background-color: #FCFFE7;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-img {
+  width: 49.6% !important;
+  height: 250px !important;
+  max-height: 300px !important;
+  /* margin: auto; */
+}
+
+.img-container {
+  /* padding-left: 10%; */
+  /* padding-top: 5%; */
+  /* padding-bottom: 5%; */
+  /* padding: 5% 10%; */
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.about_container {
+  background-color: #FCFFE7;
+  margin: auto;
+  max-width: 1440px;
+  width: 100%;
+
+}
+
+.about-title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 112.68%;
+  /* or 63px */
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #EB455F;
+
+
+}
+
+.about {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 118.18%;
+  /* or 28px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 5%;
+
+  color: #000000;
+  text-align: justify;
+
+}
+
+.college-img {
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.image-NIT {
+  width: 85%;
+  height: 85%;
+
+}
+
+.register {
+  display: inline-block;
+  margin-left: 0;
+  padding-top: 6%;
+  padding-left: 5%;
+  padding-bottom: 6%;
+  width: 50%;
+   
+  background-color: #BAD7E9;
+  color: #2B3467;
+
+}
+
+.title-h {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 500%;
+  line-height: 112.68%;
+}
+
+.connect {
+  color: #EB455F;
+}
+.hero_mk{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.register-h {
+  background: #FCFFE7;
+   
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112.68%;
+  padding: 12px;
+  width: 200px;
+  margin-top: 12px;
+}
+
+.home-img {
+  
+   height: 80% !important;
+   width: 60% !important;
+  margin-left: 20%;
+  margin-top: 10%;
+  
+}
+
+.home-img-div {
+   
+  width: 45%;
+  max-height: 500px;
+   
+}
+
+.connect-h {
+  background-color: #FCFFE7;
+  text-align: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.c-heading {
+  display: block;
+  padding-bottom: 4%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112.68%;
+  color: #2B3467;
+  font-size: 150%;
+}
+
+.lilogo {
+  padding-right: 10%;
+  display: inline-block;
+  width: auto;
+}
+
+.flogo {
+  padding-right: 10%;
+  display: inline-block;
+  width: auto;
+}
+
+.inslogo {
+  padding-right: 10%;
+  display: inline-block;
+  width: auto;
+}
+
+.twlogo {
+  display: inline-block;
+  width: auto;
+}
+
+.Alumni-h {
+  padding: 3% 0 3% 0;
+  color: #EB455F;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  line-height: 112.68%;
+  font-size: 155%;
+
+}
+
+.our-alumni {
+  background-color: #BAD7E9;
+  align-items: center;
+}
+
+.Alumni-card {
+  background-color: #ffff;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  margin: 2% 5% 2% 7%;
+}
+
+.alumni-img {
+  padding-top: 15%;
+  padding-bottom: 5%;
+  width: 70%;
+  height: 70%;
+  border-radius: 70%;
+}
+
+.logo {
+  padding: 4% 7% 4% 7%;
+}
+
+.link {
+  text-align: center;
+  padding: 4% 7% 4% 7%;
+}
+
+.contact_container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  padding: 22px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.image_map {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.map_div {
+  width: 50%;
+  height: 400px;
+}
+
+/* body {
+  background-color: #FCFFE7
+} */
+
+h1 {
+  margin-left: 5%;
+  margin-bottom: 3%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+}
+
+.title {
+  padding-top: 2%;
+  /* padding-left: 4%; */
+  /* padding-bottom: 3%; */
+  color: red;
+}
+
+.map_nit_delhi {
+  height: 400px;
+  width: 100%;
+}
+
+.description {
+  /* display: inline-block; */
+  color: black;
+  /* position :absolute; */
+  /* margin-top: 0; */
+  background-color: white;
+  width: 45% !important;
+  height: 400px;
+  /* margin-right: 10%; */
+
+}
+
+h3 {
+  padding-left: 4%;
+}
+
+
+
+.small {
+  width: 60%;
+  height: 15%;
+  padding-left: 8%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+
+  text-align: justify;
+
+}
+
+.icon1 {
+  padding-left: 10%;
+  font-weight: Bold;
+
+}
+
+.Email {
+  width: 60%;
+  height: 15%;
+  padding-left: 8%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+
+
+}
+
+.icon2 {
+  padding-left: 10%;
+  font-weight: Bold;
+
+}
+
+.Phone {
+  width: 60%;
+  height: 15%;
+  padding-left: 8%;
+  margin-top: 2%;
+
+
+}
+
+.icon3 {
+  padding-left: 10%;
+  font-weight: Bold;
+
+}
+
+dl {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.Phone {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: bold;
+}
+
+dt {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+}
+
+/* navbar  Rohit Beniwal*/
+
+.nav-item:hover{
+  background-color: lightgrey;
+  border-radius: 18px;
+}
+
+nav>.container-fluid img {
+  width: 5%;
+  margin-left: 2rem;
+}
+
+nav>.container-fluid .nav-link {
+  color: #EB455F;
+}
+
+nav>.container-fluid .dropdown-item {
+  color: #EB455F;
+}
+
+nav>.container-fluid .title {
+
+  padding-top: 0.05%;
+  margin-left: 1%;
+  margin-top: 0.75%;
+}
+
+nav>.container-fluid .btn {
+  border-radius: 0%;
+  font-weight: 400;
+  background: #2B3467;
+  color: white;
+  padding: 0rem 2rem;
+  margin-left: 4rem;
+  margin-right: 2rem;
+  transition: all 0.3s;
+}
+
+
+nav>.container-fluid .btn:hover{
+  background: #EB455F;
+}
+
+
+nav>.container-fluid .cell {
+  color: #EB455F;
+  width: 50%;
+  font-size: 1rem;
+}
+
+nav>.container-fluid .college {
+  margin-top: -6%;
+  font-weight: bolder;
+  width: 100%;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  nav>.container-fluid img {
+    width: 8%;
+  }
+
+  nav>.flexi {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav {
+    margin-top: 1%;
+  }
+
+  nav>.container-fluid .btn {
+    width: 25%;
+    margin-left: 0%;
+  }
+
+  nav>.container-fluid .title {
+    margin-left: 5%;
+    text-align: center;
+  }
+
+
+}
+
+/* Navbar End */
+
+.dirmsg {
+  font-family: 'Open Sans';
+  font-style: normal;
+  background: #BAD7E9;
+  padding-left: 5%;
+  padding-right: 8%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  font-size: 17px;
+  text-align: justify;
+  
+}
+
+.DrMsg {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 112.68%;
+  padding-left: 1.7%;
+  padding-bottom: 2%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #EB455F;
+  text-align: justify;
+  
+}
+
+.directorpic {
+  width: 40%;
+  height: 40%;
+  float: left;
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-right: 7%;
+}
+
+.dirpara2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  padding-left: 4%;
+  text-align: justify;
+
+}
+
+.chairmanmsg {
+  font-family: 'Open Sans';
+  font-style: normal;
+  background: #FCFFE7;
+  padding-left: 5%;
+  padding-right: 8%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.ChMsg {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 112.68%;
+  padding-left: 1.7%;
+  padding-bottom: 2%;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #EB455F;
+  text-align: justify;
+}
+
+.chairmanpic {
+  width: 40%;
+  height: 40%;
+  float: left;
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-right: 7%;
+}
+
+.chairpara2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  padding-left: 4%;
+
+} 
+
+
+/* Satwik Agarwal gallary page*/
+
+/* 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    background-color: #FCFFE7;
+  padding: 2rem;
+}
+ul {
+  padding: 1rem;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+li {
+  background-color: #ffdfd9;
+  color: #000;
+  padding: 0.51rem;
+}
+.containerofgallery {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 290px));
+  grid-gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  box-shadow: 0 1px 1px #000;
+}
+img {
+  background-position: top;
+  background-size: cover;
+  height: 200px;
+  width: 290px;
+  box-shadow: 0 2px 10px #000;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+img:hover {
+  box-shadow: none;
+  transform: scale(1.1);
+}
+
+/* Satwik Agarwal contact us page*/
+* {
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing: border-box; }
+
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+
+body {
+background:#FCFFE7;
+color: #333;
+font-weight: normal;
+font-size: 1em;
+font-family: 'Roboto', Arial, sans-serif;
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+outline: none;
+}
+::-moz-placeholder {
+color: #666;
+font-weight: 300;
+opacity: 1;
+}
+
+::-webkit-input-placeholder {
+color: #666;
+font-weight: 300;
+}
+
+
+/* Contact Form Styling */
+.container {
+padding: 0 50px 70px;
+}
+.textcenter {
+text-align: center;
+}
+.section1 {
+text-align: center;
+display: table;
+width: 100%;
+}
+.section1 .shtext {
+display: block;
+margin-top: 20px;
+}
+.section1 .seperator {
+border-bottom:4px solid #a2a2a2;
+width: 55px;
+display: inline-block;
+margin: 20px;
+}
+
+.section1 h1 {
+font-size: 40px;
+color: #A44DD8;
+font-weight: normal;
+}
+
+.section2 {
+width: 1200px;
+margin: 25px auto;
+}
+.section2 .col2 {
+width: 48.71%;
+}
+.section2 .col2.first {
+background-color: #FCFFE7;
+float: left;
+}
+.column1{
+  width: 50%;
+}
+.column2{
+  width: 30%;
+}
+.section2 .col2.last {
+float: right;
+}
+.section2 .col2.column2 {
+padding: 0 30px;
+}
+.section2 span.collig {
+color: #a2a2a2;
+margin-right: 10px;
+display: inline-block;
+}
+.section2 .sec2addr {
+display: block;
+line-height: 26px;
+}
+.section2 .sec2addr p:first-child {
+margin-bottom: 10px;
+}
+.section2 .sec2contactform input[type="text"], 
+.section2 .sec2contactform input[type="email"],
+.section2 .sec2contactform textarea {
+padding: 18px;
+border: 0;
+background: #EDEDED;
+margin: 7px 0;
+}
+.section2 .sec2contactform textarea {
+width: 100%;
+display: block;
+color: #666;
+resize:none;
+}
+.section2 .sec2contactform input[type="submit"] {
+padding: 15px 40px;
+color: #fff;
+border: 0;
+background: #A44DD8;
+font-size: 16px;
+text-transform: uppercase;
+margin: 7px 0;
+cursor: pointer;
+}
+.section2 .sec2contactform h3 {
+font-weight: normal;
+margin: 20px 0;
+margin-top: 30px;
+border-bottom: 1px solid #ddd;
+padding-bottom: 19px;
+color: #A44DD8;
+}
+
+/* @media querries */
+@media only screen and (min-width: 1267px){
+iframe{
+width: 90vh;
+height: 100vh;
+}
+}
+
+@media only screen and (max-width: 1266px) {
+iframe{
+width: 90vh;
+}
+.section2 {
+width: 100%;
+}
+}
+@media only screen and (max-width: 960px) {
+.container {
+padding: 0 30px 70px;
+}
+iframe{
+width: 38vh;
+}
+.section2 .col2 {
+width: 100%;
+display: block;
+}
+.section2 .col2.first {
+margin-bottom: 10px;
+}
+.section2 .col2.column2 {
+padding: 0;
+}
+body .sec2map {
+height: 250px !important;
+}
+}
+@media only screen and (max-width: 768px) {
+iframe{
+width: 38vh;
+}
+.section2 .sec2addr {
+font-size: 14px;
+}
+.section2 .sec2contactform h3 {
+font-size: 16px;
+}
+.section2 .sec2contactform input[type="text"], .section2 .sec2contactform input[type="email"], .section2 .sec2contactform textarea {
+padding: 10px;
+margin:3px 0;
+}
+.section2 .sec2contactform input[type="submit"] {
+padding: 10px 30px;
+font-size: 14px;
+}
+}
+@media only screen and (max-width: 420px) {
+.section1 h1 {
+font-size: 28px;
+}	
+}
+
+
+  */
+
+/* Footer Rohit Beniwal */
+.footer-heading{
+  font-size: 1.3rem;
+}
+/* Footer End */
+
+
+/* team page css start */
+
+.t-title
+{
+  font-family: 'Open Sans', sans-serif;
+}
+.team-title
+{
+  text-align: center;
+  background-color: #FCFFE7;
+}
+.nplate
+{
+  /* margin: 4% 10% 4% 10%; */
+  transition: box-shadow .3s;
+  transition: transform .3s;
+  border: 1px solid #ccc;
+  /* display: inline-block; */
+  margin: 3% 10%;
+}
+.nplate:hover {
+  box-shadow: 0 0 11px rgba(30, 29, 29, 0.575);
+  transform: scale(1.05);
+}
+.nplates
+{
+  /* margin: 4% 10% 4% 10%; */
+  transition: box-shadow .3s;
+  transition: transform .3s;
+  border: 1px solid #ccc;
+  /* display: inline-block; */
+  margin: 3% 3%;
+}
+.nplates:hover {
+  box-shadow: 0 0 11px rgba(30, 29, 29, 0.575);
+  transform: scale(1.05);
+}
+.icons
+{
+  padding: 1% 5%;
+}
+:any-link {
+ text-decoration: none;
+}
+.container
+{
+  padding:2%;
+}
+/* team page css end */
+
+/* gallery Rohit Beniwal */
+.gallery-image{
+width: 90%;
+border: 2px dashed black;
+border-radius: 8px;
+padding: 1rem;
+}
+/* gallery end */
